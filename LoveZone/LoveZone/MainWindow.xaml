@@ -6,11 +6,35 @@
         xmlns:local="clr-namespace:LoveZone"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    
 
-        <TextBox Text="Hej med dig" ToolTip="Hej med dig fra Jacob" Background="Black" Foreground="Red" BorderBrush="Blue" BorderThickness="100">
-            
-        </TextBox>
+    <Grid>
         
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="6*" />
+            
+        </Grid.RowDefinitions>
+        <StackPanel Background="DarkRed" Orientation="Horizontal" HorizontalAlignment="Stretch">
+            <Image  Grid.Row="0" Margin="10,5,0,5" Source="https://vignette.wikia.nocookie.net/elderscrolls/images/2/29/Human_heart.png/revision/latest?cb=20120901210050" />
+            <Label Content="LoveZone" FontSize="30" Foreground="White"></Label>
+            <Button Content="Forside" Width="75" Margin="5,0,0,0"/>
+            <Button Content="Find match" Width="75" Margin="5,0,0,0"/>
+            <Button Content="Profil" Width="75" Margin="5,0,0,0"/>
+
+            
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Label Content="Søg:" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20" Foreground="White"></Label>
+            <TextBox Text="hey" HorizontalAlignment="Right" Width="150" FontSize="20" VerticalAlignment="Center"></TextBox>
+            <Button Content="Søg"  FontSize="19" VerticalAlignment="Center" Width="75"/>
+        </StackPanel>
     </Grid>
+    
 </Window>
+    
