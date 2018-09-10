@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <TextBox Text="Hej med dig" ToolTip="Hej med dig">
+        <TextBox Text="Hej med dig" ToolTip="Hej med dig fra Jacob">
             
         </TextBox>
         
