@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:LoveZone"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary Source="BlackCrystal.xaml"></ResourceDictionary>
+    </Window.Resources>
     
 
     <Grid>
@@ -20,20 +23,22 @@
             
         </Grid.RowDefinitions>
         <StackPanel Background="DarkRed" Orientation="Horizontal" HorizontalAlignment="Stretch">
-            <Image  Grid.Row="0" Margin="10,5,0,5" Source="https://vignette.wikia.nocookie.net/elderscrolls/images/2/29/Human_heart.png/revision/latest?cb=20120901210050" />
+            <Image  Grid.Row="0" Margin="10,5,0,5" Source="https://i3.radionomy.com/radios/400/d3fedd18-5cd5-4e77-99e8-9eac056ae843.jpg" />
             <Label Content="LoveZone" FontSize="30" Foreground="White"></Label>
-            <Button Content="Forside" Width="75" Margin="5,0,0,0"/>
+            <Button Content="Forside" Width="75" Margin="5,0,0,0" Click="Forside"/>
             <Button Content="Find match" Width="75" Margin="5,0,0,0"/>
-            <Button Content="Profil" Width="75" Margin="5,0,0,0"/>
+            <Button Name="Profil" Content="Profil" Width="75" Margin="5,0,0,0">
+            </Button>
 
             
 
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-            <Label Content="Søg:" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20" Foreground="White"></Label>
-            <TextBox Text="hey" HorizontalAlignment="Right" Width="150" FontSize="20" VerticalAlignment="Center"></TextBox>
-            <Button Content="Søg"  FontSize="19" VerticalAlignment="Center" Width="75"/>
+            <Label Content="Søg:" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18" Foreground="White" Margin="0,0,0,4"></Label>
+            <TextBox HorizontalAlignment="Right" Width="150" FontSize="16" VerticalAlignment="Center"></TextBox>
+            <Button Content="Søg"  FontSize="18" VerticalAlignment="Center" Width="75" Height="25" />
         </StackPanel>
+        <Frame Name="Main" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden"/>
     </Grid>
     
 </Window>

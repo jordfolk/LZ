@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace LoveZone
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Forside.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Forside : Page
     {
-        public MainWindow()
+        public Forside()
         {
             InitializeComponent();
-        }
-
-        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            this.DragMove();
-        }
-
-        private void Forside(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new Forside();
         }
     }
 }
