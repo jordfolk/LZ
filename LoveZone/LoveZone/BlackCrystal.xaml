@@ -4,9 +4,9 @@
 
 
     <!-- Gradient baggrunds farve -->
-    <LinearGradientBrush x:Key="LightBackground" StartPoint="0,0" EndPoint="1,1">
-        <GradientStop Offset="0" Color="Red"></GradientStop>
-        <GradientStop Offset="1" Color="Black"></GradientStop>
+    <LinearGradientBrush x:Key="LightBackground" StartPoint="0,1" EndPoint="2.5,2.5">
+        <GradientStop Offset="0" Color="#b60000"></GradientStop>
+        <GradientStop Offset="1" Color="White"></GradientStop>
     </LinearGradientBrush>
 
 

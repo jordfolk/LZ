@@ -34,5 +34,15 @@ namespace LoveZone
         {
             Main.Content = new Forside();
         }
+
+        private void Find_match(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Find_match();
+        }
+
+        private void Profil(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Profil();
+        }
     }
 }

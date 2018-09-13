@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoveZone"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="{DynamicResource LightBackground}"
+        >
     <Window.Resources>
         <ResourceDictionary Source="BlackCrystal.xaml"></ResourceDictionary>
+        
     </Window.Resources>
     
 
@@ -26,8 +28,8 @@
             <Image  Grid.Row="0" Margin="10,5,0,5" Source="https://i3.radionomy.com/radios/400/d3fedd18-5cd5-4e77-99e8-9eac056ae843.jpg" />
             <Label Content="LoveZone" FontSize="30" Foreground="White"></Label>
             <Button Content="Forside" Width="75" Margin="5,0,0,0" Click="Forside"/>
-            <Button Content="Find match" Width="75" Margin="5,0,0,0"/>
-            <Button Name="Profil" Content="Profil" Width="75" Margin="5,0,0,0">
+            <Button Content="Find match" Width="75" Margin="5,0,0,0" Click="Find_match"/>
+            <Button Content="Profil" Width="75" Margin="5,0,0,0" Click="Profil">
             </Button>
 
             
@@ -38,7 +40,7 @@
             <TextBox HorizontalAlignment="Right" Width="150" FontSize="16" VerticalAlignment="Center"></TextBox>
             <Button Content="Søg"  FontSize="18" VerticalAlignment="Center" Width="75" Height="25" />
         </StackPanel>
-        <Frame Name="Main" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden"/>
+        <Frame Name="Main" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden" Source="Forside.xaml"></Frame>
     </Grid>
     
 </Window>

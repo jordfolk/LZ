@@ -1,0 +1,64 @@
+﻿<Page x:Class="LoveZone.Profil"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LoveZone"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Profil">
+
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2.5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="4*"></RowDefinition>
+            
+        </Grid.RowDefinitions>
+
+            <Label Content="Navn:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0"/>
+            <Label Content="Mail:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1"/>
+            <Label Content="Højde:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2"/>
+            <Label Content="Køn:" HorizontalAlignment="Left" VerticalAlignment="Top"  Grid.Row="3"/>
+            <Label Content="Alder:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4"/>
+            <Label Content="Forhold:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="5"/>
+            <Label Content="By/område:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="6"/>
+            <Label Content="Fysik:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="7"/>
+            <Label Content="Børn:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="8"/>
+            <Label Content="Husdyr:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="9"/>
+
+        <TextBlock Text="..." Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="8" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="9" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <Border BorderBrush="Black" BorderThickness="5" Grid.Column="2" Grid.Row="1"  Grid.RowSpan="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <Image Source="https://images-ext-2.discordapp.net/external/jxe3uJWUEzWNzUqElrUtoQ__JoZZSuGeaFohQZDiKX4/https/static.tumblr.com/9ac3a1537a4fe215af5673387733f20c/fkqzmvp/nWvo8htcy/tumblr_static_enznp7rvxx4wkok48ow00swg4_640_v2.jpg"/>
+        </Border>
+        <Label Content="Beskrivelse:" Grid.Column="2" Grid.Row="6"></Label>
+        <TextBox BorderBrush="Black" BorderThickness="2" Grid.Column="2" Grid.Row="7" Grid.RowSpan="4" Grid.ColumnSpan="2"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap"/>
+
+
+    </Grid>
+</Page>
