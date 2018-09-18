@@ -9,7 +9,6 @@
         >
     <Window.Resources>
         <ResourceDictionary Source="BlackCrystal.xaml"></ResourceDictionary>
-        
     </Window.Resources>
     
 
@@ -29,10 +28,11 @@
             <Label Content="LoveZone" FontSize="30" Foreground="White"></Label>
             <Button Content="Forside" Width="75" Margin="5,0,0,0" Click="Forside"/>
             <Button Content="Find match" Width="75" Margin="5,0,0,0" Click="Find_match"/>
-            <Button Content="Profil" Width="75" Margin="5,0,0,0" Click="Profil">
-            </Button>
+            <Button Content="Profil" Width="75" Margin="5,0,0,0" Click="Profil"/>
+            <Button Content="Beskeder" Width="75" Margin="5,0,0,0" Click="Beskeder"/>
 
-            
+
+
 
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">

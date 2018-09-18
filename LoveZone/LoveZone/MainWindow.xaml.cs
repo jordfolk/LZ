@@ -44,5 +44,10 @@ namespace LoveZone
         {
             Main.Content = new Profil();
         }
+
+        private void Beskeder(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Beskeder();
+        }
     }
 }
