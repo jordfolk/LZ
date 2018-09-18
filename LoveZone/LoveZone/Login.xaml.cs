@@ -24,30 +24,7 @@ namespace LoveZone
         public Login()
         {
             InitializeComponent();
-        }
-
-        private void Login_Button_Click(object sender, RoutedEventArgs e)
-        {
-            string Password = Password_PasswordBox.Password;
-
-            List<SqlParameter> sqlParams = new List<SqlParameter>
-            {
-                new SqlParameter("Brugernavn", Brugernavn_Textbox.Text),
-                new SqlParameter("Password", Password)
-            };
-
-            DataTable dtLoginResultsAdmin = DAL.ExecSP("ValidateLogin", sqlParams);
-
-            if (dtLoginResultsAdmin.Rows.Count == 1)
-            {
-                LoveZone.MainWindow win2 = new LoveZone.MainWindow();
-                win2.Show();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Dit brugernavn eller password er forkert");
-            }
+            Main.Source = new Uri("LoginPage.xaml", UriKind.Relative);
         }
     }
 }
