@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Profil">
 
-    <Grid ShowGridLines="True">
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="0.2*"></ColumnDefinition>
@@ -38,10 +38,10 @@
 
         </Grid.RowDefinitions>
 
-        <Label Content="Navn:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="2"/>
-        <Label Content="Alder:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="2"/>
-        <Label Content="Køn:" HorizontalAlignment="Left" VerticalAlignment="Top"  Grid.Row="3" Grid.Column="2"/>
-        <Label Content="By/område:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Grid.Column="2"/>
+        <Label Content="Navn:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="5"/>
+        <Label Content="Alder:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="5"/>
+        <Label Content="Køn:" HorizontalAlignment="Left" VerticalAlignment="Top"  Grid.Row="3" Grid.Column="5"/>
+        <Label Content="By/område:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Grid.Column="5"/>
         <Label Content="Højde:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="7" Grid.Column="5"/>
         <Label Content="Fysik:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="8" Grid.Column="5"/>
         <Label Content="Forhold:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="9" Grid.Column="5"/>
@@ -50,10 +50,10 @@
         <Label Content="Mail:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="12" Grid.Column="5"/>
 
 
-        <TextBlock Text="..." Grid.Row="1" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
-        <TextBlock Text="..." Grid.Row="2" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
-        <TextBlock Text="..." Grid.Row="3" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
-        <TextBlock Text="..." Grid.Row="4" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="1" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="2" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="3" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
+        <TextBlock Text="..." Grid.Row="4" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
         <TextBlock Text="..." Grid.Row="7" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
         <TextBlock Text="..." Grid.Row="8" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>
         <TextBlock Text="..." Grid.Row="9" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Top" ></TextBlock>

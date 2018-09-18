@@ -19,16 +19,16 @@
     </LinearGradientBrush>
 
 
-    <!-- Datagrid style --><!--
+     <!--Datagrid style--> 
     <Style TargetType="{x:Type DataGridColumnHeader}">
         <Setter Property="VerticalContentAlignment" Value="Center" />
-        --><!--<Setter Property="Foreground" Value="White" />--><!--
+        <Setter Property="Foreground" Value="White" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate x:Name="ctltmplDGCHead" TargetType="DataGridColumnHeader">
                     <Grid Height="30">
                         <Border x:Name="GlassRectangle" CornerRadius="2,12,0,0"  Background="{StaticResource GlassFX}"></Border>
-                        --><!--Gradient til header--><!--
+                        Gradient til header
                         <Border x:Name="BordeCabecera" BorderThickness="1,1,1,1" CornerRadius="5,15,0,0" BorderBrush="Black"></Border>
                     </Grid>
                 </ControlTemplate>
@@ -37,7 +37,7 @@
     </Style>
 
 
-    --><!-- ????????? --><!--
+     <!--?????????--> 
     <Style x:Key="{x:Type DataGridColumnHeadersPresenter}" TargetType="{x:Type DataGridColumnHeadersPresenter}">
         <Setter Property="Template">
             <Setter.Value>
@@ -48,11 +48,11 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-    </Style>-->
+    </Style>
 
 
-    <!--<Style TargetType="{x:Type DataGridRow}">
-        --><!--<Setter Property="Foreground" Value="White" />--><!--
+    <Style TargetType="{x:Type DataGridRow}">
+        <Setter Property="Foreground" Value="White" />
         <Setter Property="Background" Value="{StaticResource GlassFX}"></Setter>
         <Setter Property="BorderThickness" Value="0,0,0,1" />
         <Setter Property="BorderBrush" Value="Black" />
@@ -63,7 +63,7 @@
                 <Setter Property="Background" Value="#cc0000" />
             </Trigger>
         </Style.Triggers>
-    </Style>-->
+    </Style>
     
     
     <!-- BOTON -->
